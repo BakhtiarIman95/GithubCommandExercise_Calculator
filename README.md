@@ -41,7 +41,7 @@ Explanation:
     Copies a repository from GitHub to your computer.
     
 Example:
-    git clone https://github.com/username/Complex-Calculator-C.git
+    git clone https://github.com/BakhtiarIman95/GithubCommandExercise_Calculator.git
 
 ------------------------------------------------------------
 3. Check repository status
