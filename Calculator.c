@@ -11,6 +11,7 @@ double divide(double a, double b);
 double power(double base, double exp);
 double squareRoot(double num);
 double factorial(int n);
+double percentage(double total, double percent);
 
 int main() {
     int choice;
@@ -76,6 +77,12 @@ int main() {
                     result = factorial(n);
                     printf("Result: %.0lf\n", result);
                 }
+                break;
+            case 8:
+                printf("Enter the total amount and the percentage (e.g., 200 15): ");
+                scanf("%lf %lf", &num1, &num2);
+                result = percentage(num1, num2);
+                printf("%.2lf%% of %.2lf is: %.2lf\n", num2, num1, result);
                 break;
             case 0:
                 printf("Exiting program...\n");

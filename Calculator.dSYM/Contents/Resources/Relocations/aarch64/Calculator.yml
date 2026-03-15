@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/isyraf/projects/GithubCommandExercise_Calculator/Calculator'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003870, symSize: 0x364 }
+  - { offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003870, symSize: 0x364 }
+  - { offset: 0xA1, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x384, symBinAddr: 0x100003BF4, symSize: 0x20 }
+  - { offset: 0xD7, size: 0x8, addend: 0x0, symName: _subtract, symObjAddr: 0x3A4, symBinAddr: 0x100003C14, symSize: 0x20 }
+  - { offset: 0x10D, size: 0x8, addend: 0x0, symName: _multiply, symObjAddr: 0x3C4, symBinAddr: 0x100003C34, symSize: 0x20 }
+  - { offset: 0x143, size: 0x8, addend: 0x0, symName: _divide, symObjAddr: 0x3E4, symBinAddr: 0x100003C54, symSize: 0x20 }
+  - { offset: 0x179, size: 0x8, addend: 0x0, symName: _power, symObjAddr: 0x404, symBinAddr: 0x100003C74, symSize: 0x2C }
+  - { offset: 0x1AF, size: 0x8, addend: 0x0, symName: _squareRoot, symObjAddr: 0x430, symBinAddr: 0x100003CA0, symSize: 0x18 }
+  - { offset: 0x1D7, size: 0x8, addend: 0x0, symName: _factorial, symObjAddr: 0x448, symBinAddr: 0x100003CB8, symSize: 0x70 }
+  - { offset: 0x229, size: 0x8, addend: 0x0, symName: _menu, symObjAddr: 0x4B8, symBinAddr: 0x100003D28, symSize: 0x7C }
+...
